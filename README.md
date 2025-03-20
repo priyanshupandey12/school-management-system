@@ -1,25 +1,36 @@
-# School Management System API
+#  School Management System API  
 
-A simple RESTful API for managing student records, built using Node.js, Express, and with  MongoDB .
-This system allows you to create, read, update, delete (CRUD) student data with proper validation and soft deletion.
+A simple **RESTful API** for managing student records, built using **Node.js, Express, and MongoDB**.  
+This system allows **Create, Read, Update, and Delete (CRUD)** operations with **proper validation & soft deletion**.  
 
-Features
+---
 
-Create Student – Add new students with proper validations
-Get All Students – Retrieve paginated student records
-Get Student by Registration Number – Fetch details using regNo
-Update Student – Modify existing student details
-Delete Student (Soft Delete) – Deactivate a student instead of permanent deletion
-Validations – Ensures proper data formatting using Joi
+## ** Features**
+ **Create Student** – Add new students with proper validations  
+ **Get All Students** – Retrieve **paginated** student records  
+ **Get Student by Registration Number** – Fetch details using `regNo`  
+ **Update Student** – Modify existing student details  
+ **Delete Student (Soft Delete)** – **Deactivate** a student instead of permanent deletion  
+ **Validations** – Ensures **proper data formatting** using **Joi**  
+ **Error Handling** – Proper error responses for a better API experience  
 
-Tech Stack
+---
 
-Backend: Node.js, Express.js
-Database: MongoDB
-ORM: Mongoose
-Validation: Joi
-Environment Variables: dotenv
-Middleware: Express JSON
+## ** Tech Stack**
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **ORM:** Mongoose  
+- **Validation:** Joi  
+- **Environment Variables:** dotenv  
+- **Middleware:** Express JSON  
+
+---
+
+## ** Getting Started**
+### ** Clone the Repository**
+```sh
+git clone https://github.com/priyanshupandey12/school-management-system.git
+cd school-management-system
 
 Getting Started
 
