@@ -121,7 +121,7 @@ const deleteStudent=async(req,res)=>{
     student.status = false;
     await student.save();
 
-    res.status(200).json({ success: true, message: "Student deactivated successfully", student });
+    res.status(200).json({  message: "Student deactivated successfully", student });
     } catch (error) {
       res.status(500).json({ error: error.message });
     }
