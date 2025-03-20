@@ -5,7 +5,7 @@ This system allows **Create, Read, Update, and Delete (CRUD)** operations with *
 
 ---
 
-## ** Features**
+##  Features
  **Create Student** – Add new students with proper validations  
  **Get All Students** – Retrieve **paginated** student records  
  **Get Student by Registration Number** – Fetch details using `regNo`  
@@ -16,7 +16,7 @@ This system allows **Create, Read, Update, and Delete (CRUD)** operations with *
 
 ---
 
-## ** Tech Stack**
+##  Tech Stack
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
 - **ORM:** Mongoose  
@@ -26,7 +26,7 @@ This system allows **Create, Read, Update, and Delete (CRUD)** operations with *
 
 ---
 
-## ** Getting Started**
+##  Getting Started
 ### ** Clone the Repository**
 ```sh
 git clone https://github.com/priyanshupandey12/school-management-system.git
