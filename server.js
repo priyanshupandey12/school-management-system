@@ -8,10 +8,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const studentRouter=require('./routes/student.router')
-
+const classRouter=require('./routes/class.router');
 
 app.use('/api/v1/students',studentRouter)
-
+app.use('/api/v1/classes',classRouter);
 
 
 connectDB().then(()=>{
